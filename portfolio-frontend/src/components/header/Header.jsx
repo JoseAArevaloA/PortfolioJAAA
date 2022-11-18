@@ -13,27 +13,27 @@ const Header = () => {
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
                         <li className="nav__item">
-                            <a href='home' className='nav__link active-link'>
+                            <a href='#home' className='nav__link active-link'>
                                 <i class="uil uil-estate nav__icon"></i>Home
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href='about' className='nav__link active-link'>
+                            <a href='#about' className='nav__link active-link'>
                                 <i className='uil uil-user-circle nav__icon'></i>About
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href='skills' className='nav__link active-link'>
+                            <a href='#skills' className='nav__link active-link'>
                                 <i className='uil uil-brain nav__icon'></i>Skills
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href='portfolio' className='nav__link active-link'>
+                            <a href='#portfolio' className='nav__link active-link'>
                                 <i className='uil uil-bag nav__icon'></i>Portfolio
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href='messages' className='nav__link active-link'>
+                            <a href='#contact' className='nav__link active-link'>
                                 <i className='uil uil-message nav__icon'></i>Get in touch
                             </a>
                         </li>

@@ -10,7 +10,7 @@ const Data = () => {
         <p className="home__description">Hello! I'm a web developer and 
         i'm very apassionate and dedicated to my work. </p>
         <span></span>
-        <a href="contact" className="button button--flex">
+        <a href="#contact" className="button button--flex">
           Get in touch
           <i class='bx bx-mail-send bx-fade-left' ></i>
         </a>
