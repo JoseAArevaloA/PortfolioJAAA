@@ -23,6 +23,11 @@ DATABASES = {
     }
 }
 
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+]
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'django-insecure-l=53@p&8k6=lq39+s(z@tk3zh8fmnyk4@_@cs^h+gm9dz9165)'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
